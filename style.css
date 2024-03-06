@@ -1,0 +1,189 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Open Sans', sans-serif;
+    box-sizing: border-box;
+}
+
+.not {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  nav {
+    background-color: #cba941;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+  }
+  
+  nav ul li {
+    display: inline;
+  }
+  
+  nav ul li a {
+    display: inline-block;
+    padding: 20px;
+    color: white;
+    text-decoration: none;
+  }
+  
+  nav ul li a:hover {
+    background-color: #c99696;
+  }
+  
+  .elec {
+    background-color: #d2c7a4;
+  }
+  
+   ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+  }
+  
+   ul li {
+    display: inline;
+  }
+  
+   ul li a {
+    display: inline-block;
+    padding: 20px;
+    color: white;
+    text-decoration: none;
+  }
+  
+   ul li a:hover {
+    background-color: #d0b8b8;
+  }
+  
+ 
+  .card {
+    width: 300px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-top: 2rem;
+  }
+  
+  .card img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .card-content {
+    padding: 20px;
+  }
+  
+  .card-content h3 {
+    margin-top: 0;
+  }
+  
+  
+  .card-content button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #141412;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  
+  .card-content button:hover {
+    background-color: #4463a5;
+  }
+
+  .row{
+    border-radius: 2px;
+   padding-left: 2rem;
+   margin: 1rem;
+  }
+
+  .card {
+    width: 300px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    margin: 20px;
+    display: inline-block;
+    vertical-align: top;
+  }
+  
+  .card img {
+    width: 100%;
+    height: fit-content;
+background-size: cover;
+  }
+  
+  .card-content {
+    padding: 20px;
+  }
+  
+  .card-content h3 {
+    margin-top: 0;
+  }
+  
+  .card-content p {
+    margin-bottom: 20px;
+  }
+  
+  .card-content a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  
+  .card-content a:hover {
+    background-color: #0056b3;
+  }
+  footer {
+    background-color: #af985c;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+  }
+  
+  .footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .footer-content p {
+    margin: 0;
+  }
+  
+  .footer-content ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .footer-content ul li {
+    display: inline;
+    margin: 0 10px;
+  }
+  
+  .footer-content ul li a {
+    color: white;
+    text-decoration: none;
+  }
+  .media{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3rem 0px;
+    gap: 4rem;
+    font-size: 35px;
+    
+}
+
+  
