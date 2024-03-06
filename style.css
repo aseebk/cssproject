@@ -4,22 +4,36 @@
     font-family: 'Open Sans', sans-serif;
     box-sizing: border-box;
 }
+nav h2{
+    float: left;
+}
+.outer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .inner-container {
+    background-color: #f5f5f5;
+    padding: 20px;
+  }
 
 .not {
     margin: 0;
-    padding: 0;
+    padding: 0px;
     font-family: Arial, sans-serif;
   }
   
   nav {
     background-color: #cba941;
+    padding: 1rem;
+    
   }
   
   nav ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    text-align: center;
+    text-align: end;
   }
   
   nav ul li {
@@ -28,7 +42,7 @@
   
   nav ul li a {
     display: inline-block;
-    padding: 20px;
+    padding: 10px;
     color: white;
     text-decoration: none;
   }
@@ -80,20 +94,23 @@
   
   .card-content {
     padding: 20px;
+    text-align: center;
   }
   
   .card-content h3 {
     margin-top: 0;
+    text-align: center;
   }
   
   
   .card-content button {
-    display: inline-block;
+    display: flex;
     padding: 10px 20px;
     background-color: #141412;
     color: white;
     text-decoration: none;
     border-radius: 5px;
+    margin-bottom: 20px;
   }
   
   .card-content button:hover {
@@ -134,17 +151,17 @@ background-size: cover;
     margin-bottom: 20px;
   }
   
-  .card-content a {
+  .card-content button {
     display: inline-block;
     padding: 10px 20px;
-    background-color: #007bff;
+    background-color: #0f1012;
     color: white;
     text-decoration: none;
     border-radius: 5px;
   }
   
   .card-content a:hover {
-    background-color: #0056b3;
+    background-color: #161718;
   }
   footer {
     background-color: #af985c;
@@ -185,5 +202,6 @@ background-size: cover;
     font-size: 35px;
     
 }
+
 
   
